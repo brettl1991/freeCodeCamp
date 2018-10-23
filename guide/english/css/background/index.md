@@ -32,7 +32,10 @@ to purple and the rest of the page to blue.
 In CSS color can be defined in three ways:
 * A valid color name such as `blue`
 * A HEX value such as `#FFFFF` (This is the hex value for white.)
-* An RGB value such as `rgb(76,175,80)` (This is the RGB value for light green.)
+* An RGB value such as `rgb(76,175,80)` with opacity. This is he alpha parameter is a number between 0.0 (fully transparent) and 1.0 (fully opaque) rgba(255, 0, 0, 0.3).
+
+ (This is the RGB value for light green.)
+
 
 ### Background Images
 You can use the background image property to set an image as a background for an element. 
